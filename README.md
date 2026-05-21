@@ -51,3 +51,28 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 --
+
+## 📂 Repository Structure
+```
+data-warehouse-project/
+│
+├── datasets/                           # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                               # Project documentation and architecture details
+│   ├── data_architecture.png           # PNG file shows the project's architecture
+│   ├── data_flow.png                   # PNG file for the data flow diagram
+│   ├── data_integration.png            # PNG file for showing how data from different tables is integrated
+│   ├── star_schema.png                 # PNG file for data models (star schema)
+│   ├── data_catalog.md                 # Catalog of datasets, including field descriptions and metadata
+│   ├── naming-conventions.md           # Consistent naming guidelines for tables, columns, and files
+│
+├── scripts/                            # SQL scripts for ETL and transformations
+│   ├── bronze/                         # Scripts for extracting and loading raw data
+│   ├── silver/                         # Scripts for cleaning and transforming data
+│   ├── gold/                           # Scripts for creating analytical models
+│
+├── tests/                              # Test scripts and quality files
+│
+├── README.md                           # Project overview and instructions
+```
+---
